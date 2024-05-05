@@ -1,6 +1,9 @@
 import "./App.css";
 import Banner from "./components/Banner/Banner";
+import Features from "./components/Features/Features";
+import FooterBottom from "./components/Footer/FooterBottom";
 import Navbar from "./components/navbar/Index";
+import Project from "./components/Project/Project";
 
 function App() {
   return (
@@ -9,13 +12,13 @@ function App() {
         <Navbar />
         <div className="max-w-screen-xl mx-auto">
           <Banner />
-          {/*   <Features />
-          <Projects />
-          <Resume />
+          <Features />
+          <Project />
+          {/*  <Resume />
           {/* <Testimonial /> */}
           {/* <Contact /> */}
           {/* <Footer /> */}
-          {/* <FooterBottom /> */}
+          <FooterBottom />
         </div>
       </div>
     </>
