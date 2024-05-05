@@ -33,29 +33,41 @@ const LeftBanner = () => {
           motion just to spruce things up, but doing it in ways that.
         </p>
         <span>
-          <button
-            className="w-[40%] select-none rounded-lg bg-blue-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-            type="button"
+          <a
+            href="https://github.com/vpurushoth18"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <img
-              src={github}
-              alt="GitHub"
-              className="inline-block w-4 h-4 mr-2"
-            />
-            GitHub
-          </button>{" "}
+            <button
+              className="w-[40%] select-none rounded-lg bg-blue-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              type="button"
+            >
+              <img
+                src={github}
+                alt="GitHub"
+                className="inline-block w-4 h-4 mr-2"
+              />
+              GitHub
+            </button>{" "}
+          </a>
           &nbsp;
-          <button
-            className="w-[40%] select-none rounded-lg bg-blue-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-            type="button"
+          <a
+            href="https://github.com/vpurushoth18"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Download
-            <img
-              src={download}
-              alt="Download"
-              className="inline-block w-4 h-4 mr-2"
-            />
-          </button>
+            <button
+              className="w-[40%] select-none rounded-lg bg-blue-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              type="button"
+            >
+              Download
+              <img
+                src={download}
+                alt="Download"
+                className="inline-block w-4 h-4 mr-2"
+              />
+            </button>
+          </a>
         </span>
       </div>
       {/* Media */}
