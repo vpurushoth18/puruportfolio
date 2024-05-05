@@ -4,6 +4,7 @@ import Features from "./components/Features/Features";
 import FooterBottom from "./components/Footer/FooterBottom";
 import Navbar from "./components/navbar/Index";
 import Project from "./components/Project/Project";
+import Resume from "./components/resume/Resume";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Banner />
           <Features />
           <Project />
-          {/*  <Resume />
+          <Resume />
           {/* <Testimonial /> */}
           {/* <Contact /> */}
           {/* <Footer /> */}
