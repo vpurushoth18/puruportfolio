@@ -1,6 +1,6 @@
 import Title from "../Layout/Title";
 import ProjectCard from "./ProjectCard";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, } from "../../assets/index";
 
 const projectData = [
   {
@@ -31,6 +31,7 @@ const projectData = [
     image: projectOne,
     url: "https://github.com/vpurushoth18/Person-Reid-Using-Siamese-nueral-network",
   },
+ 
 ];
 
 const Project = () => {

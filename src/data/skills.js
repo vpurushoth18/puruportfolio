@@ -20,6 +20,7 @@ import {
   aws,
   gc,
   scikit,
+
 } from "../assets";
 
 // Features Data
@@ -129,4 +130,5 @@ export const featuresData = [
     logo: gc,
     title: "Google Cloud",
   },
+ 
 ];

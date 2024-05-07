@@ -4,7 +4,7 @@ import { github, download } from "../../assets";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "AI Developer.", "Research Assistant"],
+    words: ["AI Engineer.", "Research Assistant"],
     loop: true,
     typeSpeed: 35,
     deleteSpeed: 10,
@@ -52,7 +52,7 @@ const LeftBanner = () => {
           </a>
           &nbsp;
           <a
-            href="https://github.com/vpurushoth18"
+            href="https://drive.google.com/file/d/1_bMfewuop2d7Fs4pc8GRB4e-n7z7h99P/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -70,7 +70,7 @@ const LeftBanner = () => {
           </a>
         </span>
       </div>
-      {/* Media */}
+       
       <Media />
     </div>
   );

@@ -33,6 +33,7 @@ import selenium from "./images/Selenium_Logo.png";
 import aws from "./images/awse-removebg-preview.png";
 import gc from "./images/gcimage-removebg-preview.png";
 
+
 export {
   logo,
   bannerImg,
